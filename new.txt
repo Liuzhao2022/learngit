@@ -1,0 +1,35 @@
+sudo chmod 777 -R bomb
+qemu-mipsel -g 12345 ./bomb
+
+gdb-multiarch ./bomb
+(gdb) set arch mips
+(gdb) set endian little
+(gdb) target remote localhost:12345
+
+20140103
+20150678
+19990808
+20201226
+19430206
+
+1满
+9满
+10满
+
+
+菲尼克斯飞飞飞   哔站9.4万               
+跳跳糖    1500+点赞，评论不多
+记忆玲     哔站6.8万                           
+付氏水月 哔站10.2万
+极狐         抖音1400+点赞，700+评论                              
+ JYbaby琅    哔站9.1万
+离水鱼          哔站7.7万                               
+PUTS          哔站18.4万
+JalleWu           哔站7.2万                
+侃侃侃维斯特   哔站8.2万
+宴梨                小红书1200+点赞                          
+Tintinfour     哔站7.4万
+Murphy         哔站6.2万                           
+RenieZ          抖音1300+点赞
+201900210038
+
